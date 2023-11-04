@@ -1,0 +1,81 @@
+body{
+    background-color: burlywood;
+}
+
+header { 
+ border-bottom: 2px solid rgb(0, 0, 0);
+ border-top: 2px solid black;
+ text-align: center;
+ padding: 10px;
+ background-color:brown;
+ color:goldenrod;
+ font-style: italic;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header a{
+    margin: 5%;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-size: larger;
+    text-decoration: none;
+    }
+
+header img{
+float: left;
+width: 100px;
+height: 100px;
+}
+#page{
+    width: 100%;
+    margin-right: 0 auto;
+}
+
+#rightsidebar{
+    width: 20%;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+}
+
+#rightsidebar a{
+    text-decoration: none;
+    color:black;
+    border: 3px solid brown;
+}
+
+
+#leftsidebar{
+    width: 20%;
+    float: left;
+    margin-right: 3%;
+    padding-left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+#main{
+    width: 50%;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: justify; 
+}
+
+#main img{
+    position: relative;
+    margin-left: 17%;
+    margin-top: 10%;
+}
+
+#footer{
+    clear: both;
+    text-align: justify;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+
+}
